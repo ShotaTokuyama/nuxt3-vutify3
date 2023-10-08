@@ -3,7 +3,8 @@ import { DefaultsInstance } from "vuetify/lib/framework.mjs";
 export const defaults: DefaultsInstance = {
   VAppBar: {
     color: "primary",
-    elevation: 0,
+    elevation: 2,
+    variant: "flat",
   },
   VBtn: {
     variant: "flat",
@@ -11,9 +12,7 @@ export const defaults: DefaultsInstance = {
     rounded: "lg",
     size: "small",
   },
-  VTextField: {
+  VNavigationDrawer: {
     color: "primary",
-    variant: "outlined",
-    density: "comfortable",
   },
 };
